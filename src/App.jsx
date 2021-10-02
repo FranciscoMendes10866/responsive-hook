@@ -13,7 +13,6 @@ const App = () => {
         styles.layout,
         isMobile && styles.mobile,
         isTablet && styles.tablet,
-        styles.desktop,
       ])}
     >
       <h1>{isMobile ? "Mobile" : isTablet ? "Tablet" : "Desktop"}</h1>
